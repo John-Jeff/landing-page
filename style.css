@@ -1,0 +1,31 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 100px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
