@@ -11,7 +11,7 @@ body {
 
 .section-1 {
     background-color: #1F2937;
-    padding-top: 16px;
+    padding: 16px 120px 80px 120px;
 }
 
 .s1-top {
@@ -28,16 +28,40 @@ h1 {
 
 }
 
-a {
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0 0 10px 0;
+}
+
+.s1-left p {
+    margin: 0 0 20px 0;
+}
+
+a, p{
     text-decoration: none;
     font-size: 16px;
     color: #E5E7EB;
 }
 
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 120px;
+    margin-bottom: 100px;
 }
 
 .head-links {
