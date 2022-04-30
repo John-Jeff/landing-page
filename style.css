@@ -78,13 +78,15 @@ a:hover {
 
 button:hover {
     background-color: #0b58d4;
+    cursor: pointer;
 }
 
 button {
     background-color: #3882f6;
+    font-size: 16px;
     color: #E5E7EB;
-    padding: 8px 20px;
-    border-radius: 5px;
+    padding: 10px 22px;
+    border-radius: 8px;
     border: none;
     font-weight: bold;
 }
